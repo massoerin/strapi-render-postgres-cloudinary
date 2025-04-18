@@ -12,11 +12,11 @@ services:
       - key: NODE_ENV
         value: production
       - key: CLOUDINARY_NAME
-        sync: massoerin-cloudinary
+        value: massoerin-cloudinary
       - key: CLOUDINARY_KEY
-        sync: 846519329162819
+        value: 846519329162819
       - key: CLOUDINARY_SECRET
-        sync: yDHOTdBeI7r4D5Ip4BCG4tPe7T4
+        value: yDHOTdBeI7r4D5Ip4BCG4tPe7T4
       - key: DATABASE_URL
         value: postgresql://massoerin_postgres_user:c6Nr2NaaHRJ0DPyeupkEUTfxtWpauXvG@dpg-d0191024d50c7385k5vg-a/massoerin_postgres
       - key: JWT_SECRET
